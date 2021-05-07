@@ -7,19 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB711F350E47CC41D28CEA0 /* libPods-PurpleTeethTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FA5FDF50FA8F0B53F29CE0 /* libPods-PurpleTeethTimer.a */; };
+		CEC0679B26420F4F007E79A0 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0679A26420F4F007E79A0 /* SideMenuView.swift */; };
+		CEC0679D26421132007E79A0 /* SideMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0679C26421132007E79A0 /* SideMenuOption.swift */; };
+		CEC0679F264214D9007E79A0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0679E264214D9007E79A0 /* HomeView.swift */; };
+		CEC067A126421BAB007E79A0 /* TransparentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A026421BAB007E79A0 /* TransparentButtonView.swift */; };
+		CEC067A62642226E007E79A0 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A52642226E007E79A0 /* SideMenuViewModel.swift */; };
+		CEC067A826422A17007E79A0 /* ClassesFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A726422A17007E79A0 /* ClassesFuncs.swift */; };
+		CEC067AA2644541A007E79A0 /* CharityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A92644541A007E79A0 /* CharityView.swift */; };
+		CEC067AC2644BF72007E79A0 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067AB2644BF72007E79A0 /* TipsView.swift */; };
 		CEE21672263B92910056DCE9 /* PurpleTeethTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21671263B92910056DCE9 /* PurpleTeethTimerApp.swift */; };
 		CEE21674263B92910056DCE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21673263B92910056DCE9 /* ContentView.swift */; };
 		CEE21676263B92920056DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE21675263B92920056DCE9 /* Assets.xcassets */; };
 		CEE21679263B92920056DCE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE21678263B92920056DCE9 /* Preview Assets.xcassets */; };
+		CEE21681263B92CD0056DCE9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21680263B92CD0056DCE9 /* TimerView.swift */; };
+		CEE21683263B92DD0056DCE9 /* TeethText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21682263B92DD0056DCE9 /* TeethText.swift */; };
+		CEE21685263B92E80056DCE9 /* TeethBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21684263B92E80056DCE9 /* TeethBackground.swift */; };
+		CEE21687263B92F60056DCE9 /* AdBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21686263B92F60056DCE9 /* AdBanner.swift */; };
+		CEE21689263B930E0056DCE9 /* AdBannerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21688263B930E0056DCE9 /* AdBannerTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC094E48BDBA0071D2C3B44E /* Pods-PurpleTeethTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleTeethTimer.debug.xcconfig"; path = "Target Support Files/Pods-PurpleTeethTimer/Pods-PurpleTeethTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC0679A26420F4F007E79A0 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		CEC0679C26421132007E79A0 /* SideMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOption.swift; sourceTree = "<group>"; };
+		CEC0679E264214D9007E79A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEC067A026421BAB007E79A0 /* TransparentButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentButtonView.swift; sourceTree = "<group>"; };
+		CEC067A52642226E007E79A0 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		CEC067A726422A17007E79A0 /* ClassesFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesFuncs.swift; sourceTree = "<group>"; };
+		CEC067A92644541A007E79A0 /* CharityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityView.swift; sourceTree = "<group>"; };
+		CEC067AB2644BF72007E79A0 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		CEE2166E263B92910056DCE9 /* PurpleTeethTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurpleTeethTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE21671263B92910056DCE9 /* PurpleTeethTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleTeethTimerApp.swift; sourceTree = "<group>"; };
 		CEE21673263B92910056DCE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEE21675263B92920056DCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE21678263B92920056DCE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE2167A263B92920056DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE21680263B92CD0056DCE9 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		CEE21682263B92DD0056DCE9 /* TeethText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethText.swift; sourceTree = "<group>"; };
+		CEE21684263B92E80056DCE9 /* TeethBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethBackground.swift; sourceTree = "<group>"; };
+		CEE21686263B92F60056DCE9 /* AdBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBanner.swift; sourceTree = "<group>"; };
+		CEE21688263B930E0056DCE9 /* AdBannerTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerTimer.swift; sourceTree = "<group>"; };
+		F6FA5FDF50FA8F0B53F29CE0 /* libPods-PurpleTeethTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PurpleTeethTimer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AAFA3292E80D727BCF06B1 /* Pods-PurpleTeethTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurpleTeethTimer.release.xcconfig"; path = "Target Support Files/Pods-PurpleTeethTimer/Pods-PurpleTeethTimer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +57,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB711F350E47CC41D28CEA0 /* libPods-PurpleTeethTimer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C9E06648218D3D5DDA84438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC094E48BDBA0071D2C3B44E /* Pods-PurpleTeethTimer.debug.xcconfig */,
+				F9AAFA3292E80D727BCF06B1 /* Pods-PurpleTeethTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEC0679526420EB0007E79A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE21673263B92910056DCE9 /* ContentView.swift */,
+				CEE21680263B92CD0056DCE9 /* TimerView.swift */,
+				CEC0679A26420F4F007E79A0 /* SideMenuView.swift */,
+				CEC0679E264214D9007E79A0 /* HomeView.swift */,
+				CEC067A92644541A007E79A0 /* CharityView.swift */,
+				CEC067AB2644BF72007E79A0 /* TipsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC0679626420ED5007E79A0 /* Things */ = {
+			isa = PBXGroup;
+			children = (
+				CEE21682263B92DD0056DCE9 /* TeethText.swift */,
+				CEE21684263B92E80056DCE9 /* TeethBackground.swift */,
+				CEC0679C26421132007E79A0 /* SideMenuOption.swift */,
+				CEC067A026421BAB007E79A0 /* TransparentButtonView.swift */,
+			);
+			path = Things;
+			sourceTree = "<group>";
+		};
+		CEC0679726420EF0007E79A0 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				CEE21686263B92F60056DCE9 /* AdBanner.swift */,
+				CEE21688263B930E0056DCE9 /* AdBannerTimer.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		CEC067A426422255007E79A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEC067A52642226E007E79A0 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CEE21665263B92910056DCE9 = {
 			isa = PBXGroup;
 			children = (
 				CEE21670263B92910056DCE9 /* PurpleTeethTimer */,
 				CEE2166F263B92910056DCE9 /* Products */,
+				6C9E06648218D3D5DDA84438 /* Pods */,
+				E18B6E1A0E3E133D65C79EA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +136,11 @@
 			isa = PBXGroup;
 			children = (
 				CEE21671263B92910056DCE9 /* PurpleTeethTimerApp.swift */,
-				CEE21673263B92910056DCE9 /* ContentView.swift */,
+				CEC067A726422A17007E79A0 /* ClassesFuncs.swift */,
+				CEC067A426422255007E79A0 /* ViewModels */,
+				CEC0679726420EF0007E79A0 /* Ads */,
+				CEC0679626420ED5007E79A0 /* Things */,
+				CEC0679526420EB0007E79A0 /* Views */,
 				CEE21675263B92920056DCE9 /* Assets.xcassets */,
 				CEE2167A263B92920056DCE9 /* Info.plist */,
 				CEE21677263B92920056DCE9 /* Preview Content */,
@@ -69,6 +156,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E18B6E1A0E3E133D65C79EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6FA5FDF50FA8F0B53F29CE0 /* libPods-PurpleTeethTimer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEE2167D263B92920056DCE9 /* Build configuration list for PBXNativeTarget "PurpleTeethTimer" */;
 			buildPhases = (
+				2AC026BA067D05064EB4C258 /* [CP] Check Pods Manifest.lock */,
 				CEE2166A263B92910056DCE9 /* Sources */,
 				CEE2166B263B92910056DCE9 /* Frameworks */,
 				CEE2166C263B92910056DCE9 /* Resources */,
@@ -133,12 +229,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AC026BA067D05064EB4C258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PurpleTeethTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEE2166A263B92910056DCE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE21685263B92E80056DCE9 /* TeethBackground.swift in Sources */,
+				CEE21689263B930E0056DCE9 /* AdBannerTimer.swift in Sources */,
+				CEC0679B26420F4F007E79A0 /* SideMenuView.swift in Sources */,
+				CEC067A826422A17007E79A0 /* ClassesFuncs.swift in Sources */,
+				CEE21681263B92CD0056DCE9 /* TimerView.swift in Sources */,
+				CEC067A62642226E007E79A0 /* SideMenuViewModel.swift in Sources */,
+				CEC0679F264214D9007E79A0 /* HomeView.swift in Sources */,
+				CEC067A126421BAB007E79A0 /* TransparentButtonView.swift in Sources */,
+				CEC067AA2644541A007E79A0 /* CharityView.swift in Sources */,
+				CEE21683263B92DD0056DCE9 /* TeethText.swift in Sources */,
+				CEC0679D26421132007E79A0 /* SideMenuOption.swift in Sources */,
+				CEC067AC2644BF72007E79A0 /* TipsView.swift in Sources */,
 				CEE21674263B92910056DCE9 /* ContentView.swift in Sources */,
+				CEE21687263B92F60056DCE9 /* AdBanner.swift in Sources */,
 				CEE21672263B92910056DCE9 /* PurpleTeethTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +398,7 @@
 		};
 		CEE2167E263B92920056DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC094E48BDBA0071D2C3B44E /* Pods-PurpleTeethTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -280,12 +415,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jakob-Velle.PurpleTeethTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CEE2167F263B92920056DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AAFA3292E80D727BCF06B1 /* Pods-PurpleTeethTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jakob-Velle.PurpleTeethTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
