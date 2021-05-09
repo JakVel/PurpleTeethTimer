@@ -12,7 +12,6 @@ struct Charity: View {
         ZStack{
             TeethBackground()
             VStack{
-                Spacer()
                 TeethText(title: "Purple Teeth Timer is dedicated to making the oceans cleaner!",
                           font: .title)
                 TeethText(title: "Purple Teeth Timer is dedicated to making the oceans cleaner by donating 50% of the apps profits to The Ocean Cleanup Project™. If you want to further support the efforts of saving our oceans feel free to visit their site and donate whatever amount you feel appropriate.",
@@ -31,7 +30,8 @@ struct Charity: View {
                     .font(Font.system(size:8, design: .default))
                     .multilineTextAlignment(.center)
             }
-            
         }
+        .navigationTitle("Charity")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

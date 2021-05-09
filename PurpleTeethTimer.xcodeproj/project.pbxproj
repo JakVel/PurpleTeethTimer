@@ -16,6 +16,7 @@
 		CEC067A826422A17007E79A0 /* ClassesFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A726422A17007E79A0 /* ClassesFuncs.swift */; };
 		CEC067AA2644541A007E79A0 /* CharityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067A92644541A007E79A0 /* CharityView.swift */; };
 		CEC067AC2644BF72007E79A0 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067AB2644BF72007E79A0 /* TipsView.swift */; };
+		CEC067AE2645B6F3007E79A0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC067AD2645B6F3007E79A0 /* SettingsView.swift */; };
 		CEE21672263B92910056DCE9 /* PurpleTeethTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21671263B92910056DCE9 /* PurpleTeethTimerApp.swift */; };
 		CEE21674263B92910056DCE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE21673263B92910056DCE9 /* ContentView.swift */; };
 		CEE21676263B92920056DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE21675263B92920056DCE9 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		CEC067A726422A17007E79A0 /* ClassesFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesFuncs.swift; sourceTree = "<group>"; };
 		CEC067A92644541A007E79A0 /* CharityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityView.swift; sourceTree = "<group>"; };
 		CEC067AB2644BF72007E79A0 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		CEC067AD2645B6F3007E79A0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CEE2166E263B92910056DCE9 /* PurpleTeethTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurpleTeethTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE21671263B92910056DCE9 /* PurpleTeethTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleTeethTimerApp.swift; sourceTree = "<group>"; };
 		CEE21673263B92910056DCE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				CEC0679E264214D9007E79A0 /* HomeView.swift */,
 				CEC067A92644541A007E79A0 /* CharityView.swift */,
 				CEC067AB2644BF72007E79A0 /* TipsView.swift */,
+				CEC067AD2645B6F3007E79A0 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				CEC0679F264214D9007E79A0 /* HomeView.swift in Sources */,
 				CEC067A126421BAB007E79A0 /* TransparentButtonView.swift in Sources */,
 				CEC067AA2644541A007E79A0 /* CharityView.swift in Sources */,
+				CEC067AE2645B6F3007E79A0 /* SettingsView.swift in Sources */,
 				CEE21683263B92DD0056DCE9 /* TeethText.swift in Sources */,
 				CEC0679D26421132007E79A0 /* SideMenuOption.swift in Sources */,
 				CEC067AC2644BF72007E79A0 /* TipsView.swift in Sources */,

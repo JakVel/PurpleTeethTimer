@@ -37,7 +37,7 @@ struct SideMenuView: View {
                                        text: SideMenuViewModel.charity.title)
                     })
                 NavigationLink(
-                    destination: TimerView(toothBrush: 60),
+                    destination: SettingsView(),
                     label: {
                         SideMenuOption(image: SideMenuViewModel.settings.image,
                                        text: SideMenuViewModel.settings.title)

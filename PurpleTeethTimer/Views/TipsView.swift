@@ -92,8 +92,9 @@ struct TipsView: View {
                     }
                 }
             }
+            .navigationTitle("Tips")
+            .navigationBarTitleDisplayMode(.large)
         }
-        .navigationTitle("Tips")
     }
 }
 
